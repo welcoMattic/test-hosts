@@ -1,6 +1,10 @@
 controllers:
     resource: ../../src/Controller/
     type: annotation
+    host:
+        fr: '%root_domain%'
+        en: 'en.%root_domain%'
+        nl: 'nl.%root_domain%'
 
 kernel:
     resource: ../../src/Kernel.php
